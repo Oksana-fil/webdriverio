@@ -1,0 +1,14 @@
+{
+  "name": "f1",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/browser-runner": "^8.32.3",
+    "@wdio/cli": "^8.32.3",
+    "@wdio/json-reporter": "^8.32.2",
+    "@wdio/mocha-framework": "^8.32.3",
+    "@wdio/visual-service": "^3.1.0"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
